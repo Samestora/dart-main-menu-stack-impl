@@ -17,9 +17,7 @@ class MainMenu {
       stdout.write('\x1B[2J\x1B[1;1H');
     }
   }
-
-  /// Displays the menu, handles user input, and returns a boolean indicating
-  /// whether the program should continue running.
+  
   bool displayMenu() {
     print('--- (${currentMenu}) ---');
     print('-1. To Go Back');
